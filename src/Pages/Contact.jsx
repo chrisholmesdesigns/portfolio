@@ -38,15 +38,15 @@ function Contact() {
             </div>
             <div style={{ whiteSpace: 'pre-wrap'}} className="relative w-full h-full  flex-1">
               <Button
-                Editable={true}
+                editable={true}
                 onChange={(e) => setMore(e)}
-                text="TELLL ME MORE..."
-                placeHolder="Tell me more..."
+                text="TELL ME MORE..."
+                placeholder="Tell me more..."
                 rounded="25px"
                 width={'100%'}
                 height={'500px'}
-              ></Button>
-            </div>
+                ></Button>
+          </div>
           </div>
           <form onSubmit={(e) => handleSubmit(e)} className="w-full">
             <Button
