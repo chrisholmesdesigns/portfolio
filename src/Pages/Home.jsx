@@ -84,7 +84,7 @@ function Home() {
                 />
               </div>
               <p className="max-w-[489px] text-[28px] lg:text-[38px] text-[#425164] font-medium">
-                Get employees moving and help improve their wellbeing
+                Help catch fraudsters on a massive scale
               </p>
             </div>
             <div className="w-fit lg:block hidden">
