@@ -31,22 +31,19 @@ function Button({
           backgroundColor: mainBgCol,
           padding: padding,
           borderRadius: rounded,
-          // Remove width property or set it to 'auto'
-          width: 'auto', // or remove this line altogether
         }}
         className="relative flex items-center justify-center z-10 bg-white rounded-full border-[4px] border-[#425164]"
       >
         {Editable ? (
-          <input
+          <textarea
             placeholder={placeHolder}
-            style={{ color: textCol, width: '100%', whiteSpace: 'normal', wordWrap: 'break-word'}}
+            style={{ color: textCol, width: '100%', height: '100%', resize: 'none' }}
             onChange={(e) => onChange(e.target.value)}
             className={`lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-center text-[#425164] font-[800] uppercase`}
-            type="text"
           />
         ) : (
           <p
-            style={{ color: textCol, width: '100%', whiteSpace: 'normal', wordWrap: 'break-word' }}
+            style={{ color: textCol }}
             className={`lg:text-[${textSize}px] text-[${textSm}px] text-[#425164] font-[800] uppercase`}
           >
             {text}
