@@ -46,7 +46,7 @@ function Button({
           />
         ) : (
           <p
-            style={{ color: textCol }}
+            style={{ color: textCol, whiteSpace: 'normal', wordWrap: 'break-word' }}
             className={`lg:text-[${textSize}px] text-[${textSm}px] text-[#425164] font-[800] uppercase`}
           >
             {text}
