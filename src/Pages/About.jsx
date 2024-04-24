@@ -53,7 +53,6 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
       <div className="bg-[#F79256] lg:text-start text-center space-y-[89px] py-[100px] padding min-h-[400px] border-t-[4px] border-t-[#425164]">
         <div className="flex lg:space-y-0 space-y-[30px] lg:flex-row flex-col justify-between">
           <div className="max-w-[580px] space-y-[10px]">
