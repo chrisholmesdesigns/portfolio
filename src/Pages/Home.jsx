@@ -117,7 +117,7 @@ function Home() {
                 />
               </div>
               <p className="max-w-[513px] text-[28px] lg:text-[38px] text-[#425164] font-medium">
-                Help technicians manage global performance of complex mechanical
+                Help technicians manage mechanical
                 turbines
               </p>
             </div>
