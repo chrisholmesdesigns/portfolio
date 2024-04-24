@@ -21,7 +21,7 @@ function About() {
        <div className="padding lg:flex-row flex-col-reverse lg:space-y-0 space-y-[30px] lg:-space-x-[0px] relative flex justify-center ">
           <div>
             <div className="bg-white mt-[30px] lg:mt-[180px] overflow-hidden border-[4px] border-[#425164] h-fit z-10 p-[24px] lg:p-[32px] rounded-[18px] flex flex-wrap lg:flex-nowrap items-center">
-            <div>
+            <div className="pr-[24px]">
               <p className="text-left text-[28px] lg:text-[40px] text-[#425164]">
                 <span className="font-bold stroke-[5px] stroke-current">
                  Senior Product Designer
@@ -40,7 +40,7 @@ function About() {
               but also align with business goals and technical constraints.
              </p>
             </div>
-            <img src={ChrisPicture} alt="" className="pt-[50px] w-[300px] h-[300px]" />
+            <img src={ChrisPicture} alt="" className="pt-[50px] w-fill h-[300px]" />
 </div>
             <div className="flex pt-[60px] items-center space-x-[30px]">
               <img
