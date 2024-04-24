@@ -36,7 +36,7 @@ function Contact() {
                 width={'100%'}
               ></Button>
             </div>
-            <div className="relative w-full h-full">
+            <div className="relative w-full h-full flex-1">
               <Button
                 Editable={true}
                 onChange={(e) => setMore(e)}
