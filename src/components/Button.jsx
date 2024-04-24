@@ -34,7 +34,7 @@ function Button({
           padding: padding,
           borderRadius: rounded,
         }}
-        className="relative flex items-center justify-center z-10 w-[180px] overflow-hidden lg:w-[252px] bg-white h-[60px] lg:h-[73px] rounded-full border-[4px] border-[#425164]"
+        className="relative flex items-center justify-center z-10 w-[180px] lg:w-[252px] bg-white h-[60px] lg:h-[73px] rounded-full border-[4px] border-[#425164]"
       >
         {Editable ? (
           <input
