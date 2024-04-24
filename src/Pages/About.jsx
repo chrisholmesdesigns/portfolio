@@ -26,7 +26,6 @@ function About() {
                 <span className="font-bold stroke-[5px] stroke-current">
                  Senior Product Designer
                 </span>{' '}
-                putting the “fun” back in functional design
               </p>
               <p className="max-w-[501px] text-[#425164]">
               My ability to create functional design is honed through years of
@@ -41,7 +40,7 @@ function About() {
               but also align with business goals and technical constraints.
              </p>
             </div>
-            <img src={ChrisPicture} alt="" className="pt-[50px] w-[200px] h-[200px]" />
+            <img src={ChrisPicture} alt="" className="pt-[50px] w-[300px] h-[300px]" />
 </div>
             <div className="flex pt-[60px] items-center space-x-[30px]">
               <img
