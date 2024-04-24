@@ -41,7 +41,7 @@ function About() {
             but also align with business goals and technical constraints.
             </p>
             </div>
-  <img src={ChrisPicture} alt="" className="pt-[50px] w-50px h-50px" />
+  <img src={ChrisPicture} alt="" className="pt-[50px] w-[50px] h-[50px]" />
 </div>
             <div className="flex pt-[60px] items-center space-x-[30px]">
               <img
