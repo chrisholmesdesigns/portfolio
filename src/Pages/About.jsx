@@ -41,6 +41,7 @@ function About() {
                 that not only meet user requirements but also align with
                 business goals and technical constraints.
               </p>
+              <img src={ChrisPicture} alt="" className="pt-[149px] w-fit h-fit" />
             </div>
             <div className="flex pt-[60px] items-center space-x-[30px]">
               <img
@@ -52,7 +53,6 @@ function About() {
             </div>
           </div>
         </div>
-        <img src={ChrisPicture} alt="" className="pt-[149px] w-fit h-fit" />
       </div>
       <div className="bg-[#F79256] lg:text-start text-center space-y-[89px] py-[100px] padding min-h-[400px] border-t-[4px] border-t-[#425164]">
         <div className="flex lg:space-y-0 space-y-[30px] lg:flex-row flex-col justify-between">
