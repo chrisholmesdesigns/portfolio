@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 function Button({
-  Subbmitable = false,
+  Subbmitable = true,
   Editable,
   onChange,
   placeHolder = 'PlaceHolder',
@@ -29,7 +29,6 @@ function Button({
       <div
         style={{
           height: height,
-          width: width,
           backgroundColor: mainBgCol,
           padding: padding,
           borderRadius: rounded,
