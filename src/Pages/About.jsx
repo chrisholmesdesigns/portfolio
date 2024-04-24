@@ -40,8 +40,8 @@ function About() {
               conceptualize and iterate on designs that not only meet user requirements
               but also align with business goals and technical constraints.
              </p>
+             <img src={ChrisPicture} alt="" className="pt-[50px] w-[150px] h-[150px]" />
             </div>
-  <img src={ChrisPicture} alt="" className="pt-[50px] w-[150px] h-[150px]" />
 </div>
             <div className="flex pt-[60px] items-center space-x-[30px]">
               <img
