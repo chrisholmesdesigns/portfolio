@@ -22,7 +22,7 @@ function About() {
           <div>
             <div className="bg-white mt-[30px] lg:mt-[180px] overflow-hidden border-[4px] border-[#425164] h-fit z-10 p-[24px] lg:p-[32px] rounded-[18px] flex flex-wrap lg:flex-nowrap items-center">
             <div>
-              <p className="text-center text-[28px] lg:text-[40px] text-[#425164]">
+              <p className="text-left text-[28px] lg:text-[40px] text-[#425164]">
                 <span className="font-bold stroke-[5px] stroke-current">
                  Senior Product Designer
                 </span>{' '}
@@ -40,8 +40,8 @@ function About() {
               conceptualize and iterate on designs that not only meet user requirements
               but also align with business goals and technical constraints.
              </p>
-             <img src={ChrisPicture} alt="" className="pt-[50px] w-[150px] h-[150px]" />
             </div>
+            <img src={ChrisPicture} alt="" className="pt-[50px] w-[200px] h-[200px]" />
 </div>
             <div className="flex pt-[60px] items-center space-x-[30px]">
               <img
