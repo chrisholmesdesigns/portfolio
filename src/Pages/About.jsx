@@ -18,16 +18,17 @@ function About() {
         <div className="absolute inset-0 w-full ">
           <div className="w-full"></div>
         </div>
-        <div className="padding  lg:-space-x-[50px] relative flex lg:flex-row flex-col justify-center ">
-          <div className="bg-white mt-[150px] lg:mt-[283px] overflow-hidden border-[4px] border-[#425164] h-fit z-10 p-[32px] w-full lg:w-[547px] rounded-[18px]">
-            <p className="text-center lg:text-[40px] text-[#425164]">
-              <span className="font-bold   stroke-[5px] stroke-current">
-                {' '}
-                Senior Product Designer
-              </span>{' '}
-              putting the “fun” back in functional design
-            </p>
-            <p className="max-w-[501px]  text-[#425164]">
+       <div className="padding  lg:flex-row flex-col-reverse lg:space-y-0 space-y-[30px] lg:-space-x-[50px] relative flex justify-center ">
+          <div>
+            <div className="bg-white  mt-[30px] lg:mt-[180px] overflow-hidden border-[4px] border-[#425164] h-fit z-10  p-[24px] lg:p-[32px] lg:w-[547px] rounded-[18px]">
+              <p className="text-center text-[28px] lg:text-[40px] text-[#425164]">
+                <span className="font-bold   stroke-[5px] stroke-current">
+                  {' '}
+                  Senior Product Designer
+                </span>{' '}
+                putting the “fun” back in functional design
+              </p>
+              <p className="max-w-[501px]  text-[#425164]">
                 My ability to create functional design is honed through years of
                 experience, a deep understanding of user needs, and a passion
                 for innovation. I excel in translating complex concepts into
@@ -40,9 +41,7 @@ function About() {
                 that not only meet user requirements but also align with
                 business goals and technical constraints.
               </p>
-          </div>
-          <img src={ChrisPicture} alt="" className="pt-[50px] lg:pt-[149px]" />
-        </div>
+            </div>
             <div className="flex pt-[60px] items-center space-x-[30px]">
               <img
                 src={FunFactText}
@@ -52,7 +51,9 @@ function About() {
               {arrowDown}
             </div>
           </div>
+          <img src={ChrisPicture} alt="" className="pt-[149px] w-fit h-fit z-[0]" />
         </div>
+      </div>
       <div className="bg-[#F79256] lg:text-start text-center space-y-[89px] py-[100px] padding min-h-[400px] border-t-[4px] border-t-[#425164]">
         <div className="flex lg:space-y-0 space-y-[30px] lg:flex-row flex-col justify-between">
           <div className="max-w-[580px] space-y-[10px]">
