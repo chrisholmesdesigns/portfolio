@@ -41,7 +41,7 @@ function Contact() {
                 Editable={true}
                 onChange={(e) => setMore(e)}
                 text="TELL ME MORE..."
-                placeholder="Tell me more..."
+                placeHolder="Tell me more..."
                 rounded="25px"
                 width={'100%'}
                 height={'200px'}
