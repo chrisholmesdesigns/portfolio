@@ -102,7 +102,7 @@ function Home() {
         </div>
       </div>
       <div className="relative padding">
-        <div className="bg-[#F7D456] -z-10 h-full lg:h-[90%] border-t-[4px] border-b-[4px] border-[#425164] absolute inset-0 w-full"></div>
+        <div className="bg-[#F7D456] -z-10 h-full lg:h-[80%] border-t-[4px] border-b-[4px] border-[#425164] absolute inset-0 w-full"></div>
         <div className="bg-[#F7D456] lg:block hidden border-b-[4px] -translate-y-[4px]  border-r-[4px] border-[#425164] h-[160px] top-[80%] absolute inset-0 w-1/2"></div>
 
         <div className="flex lg:flex-row space-y-[30px] lg:space-y-0 flex-col lg:pb-0 py-[130px] lg:pt-[130px]  relative justify-between w-full mx-auto max-w-[1200px]">
