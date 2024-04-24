@@ -78,7 +78,7 @@ function Home() {
               <div className="w-fit lg:mx-0 mx-auto">{eyespring}</div>
               <div className="uppercase stroke w-fit mx-auto lg:mx-0 text-[32px] text-[#425164]">
                 <img
-                  className="w-[250px] -ml-[5px]"
+                  className="w-[200px] -ml-[5px]"
                   src={ExperianText}
                   alt=""
                 />
