@@ -31,8 +31,11 @@ function Button({
           backgroundColor: mainBgCol,
           padding: padding,
           borderRadius: rounded,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center', // Center align horizontally
         }}
-        className="relative flex items-center justify-center z-10 bg-white rounded-full border-[4px] border-[#425164]"
+        className="relative bg-white rounded-full border-[4px] border-[#425164]"
       >
         {Editable ? (
           <textarea
