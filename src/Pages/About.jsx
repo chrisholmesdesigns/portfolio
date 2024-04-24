@@ -42,6 +42,7 @@ function About() {
                 business goals and technical constraints.
               </p>
             </div>
+            <img src={ChrisPicture} alt="" className="pt-[149px] w-fit h-fit" />
             <div className="flex pt-[60px] items-center space-x-[30px]">
               <img
                 src={FunFactText}
