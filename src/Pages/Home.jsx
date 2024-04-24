@@ -53,7 +53,7 @@ function Home() {
                 />
               </div>
               <p className="max-w-[489px] text-[38px] text-white font-medium">
-                Get employees moving and help improve their wellbeing
+                Get employees moving and help improve their wellbeing.
               </p>
             </div>
             <div className="w-fit lg:block hidden">
@@ -78,13 +78,13 @@ function Home() {
               <div className="w-fit lg:mx-0 mx-auto">{eyespring}</div>
               <div className="uppercase stroke w-fit mx-auto lg:mx-0 text-[32px] text-[#425164]">
                 <img
-                  className="w-[250px] -ml-[5px]"
+                  className="w-[200px] -ml-[5px]"
                   src={ExperianText}
                   alt=""
                 />
               </div>
               <p className="max-w-[489px] text-[28px] lg:text-[38px] text-[#425164] font-medium">
-                Help catch fraudsters on a massive scale
+                Help catch fraudsters on a massive scale.
               </p>
             </div>
             <div className="w-fit lg:block hidden">
@@ -117,8 +117,7 @@ function Home() {
                 />
               </div>
               <p className="max-w-[513px] text-[28px] lg:text-[38px] text-[#425164] font-medium">
-                Help technicians manage mechanical
-                turbines
+                Help technicians manage mechanical turbines.
               </p>
             </div>
             <Button link={'/Catepillar'}></Button>
@@ -139,8 +138,7 @@ function Home() {
                 />
               </div>
               <p className="max-w-[489px] text-[28px] lg:text-[38px] text-[#425164] font-medium">
-                Create design system to be used across a 12+ teams for varying
-                devices and use cases
+                Create design system to be used across a 12+ teams globally.
               </p>
             </div>
             <div className="lg:block hidden w-fit">
