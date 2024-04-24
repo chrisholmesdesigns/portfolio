@@ -1,6 +1,3 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
-
 function Button({
   Subbmitable = true,
   Editable,
@@ -32,20 +29,22 @@ function Button({
           backgroundColor: mainBgCol,
           padding: padding,
           borderRadius: rounded,
+          // Remove width property or set it to 'auto'
+          width: 'auto', // or remove this line altogether
         }}
-        className="relative flex items-center justify-center z-10 w-[180px] lg:w-[252px] bg-white h-[60px] lg:h-[73px] rounded-full border-[4px] border-[#425164]"
+        className="relative flex items-center justify-center z-10 bg-white rounded-full border-[4px] border-[#425164]"
       >
         {Editable ? (
           <input
             placeholder={placeHolder}
-            style={{ color: textCol, whiteSpace: 'normal', wordWrap: 'break-word'}}
+            style={{ color: textCol, width: '100%', whiteSpace: 'normal', wordWrap: 'break-word'}}
             onChange={(e) => onChange(e.target.value)}
-            className={`lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
+            className={`lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-center text-[#425164] font-[800] uppercase`}
             type="text"
           />
         ) : (
           <p
-            style={{ color: textCol, whiteSpace: 'normal', wordWrap: 'break-word' }}
+            style={{ color: textCol, width: '100%', whiteSpace: 'normal', wordWrap: 'break-word' }}
             className={`lg:text-[${textSize}px] text-[${textSm}px] text-[#425164] font-[800] uppercase`}
           >
             {text}
