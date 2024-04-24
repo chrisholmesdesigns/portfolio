@@ -36,13 +36,14 @@ function Contact() {
                 width={'100%'}
               ></Button>
             </div>
-            <div className="relative w-[250px] h-[250px]">
+            <div className="relative w-fill h-fill">
               <Button
                 Editable={true}
                 onChange={(e) => setMore(e)}
                 text="TELL ME MORE..."
                 placeHolder="Tell me more..."
                 rounded="25px"
+                width={'250px'}
                 style={{ whiteSpace: 'normal', wordWrap: 'break-word' }}
                 ></Button>
           </div>
