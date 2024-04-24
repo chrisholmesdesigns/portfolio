@@ -36,7 +36,7 @@ function Contact() {
                 width={'100%'}
               ></Button>
             </div>
-            <div className="relative w-full h-full  flex-1">
+            <div style={{ whiteSpace: 'pre-wrap'}} className="relative w-full h-full  flex-1">
               <Button
                 Editable={true}
                 onChange={(e) => setMore(e)}
@@ -44,7 +44,7 @@ function Contact() {
                 placeHolder="Tell me more..."
                 rounded="25px"
                 width={'100%'}
-                height={'200px'}
+                height={'500px'}
               ></Button>
             </div>
           </div>
