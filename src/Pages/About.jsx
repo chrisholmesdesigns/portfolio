@@ -18,29 +18,29 @@ function About() {
         <div className="absolute inset-0 w-full ">
           <div className="w-full"></div>
         </div>
-       <div className="padding  lg:flex-row flex-col-reverse lg:space-y-0 space-y-[30px] lg:-space-x-[50px] relative flex justify-center ">
+       <div className="padding lg:flex-row flex-col-reverse lg:space-y-0 space-y-[30px] lg:-space-x-[0px] relative flex justify-center ">
           <div>
             <div className="bg-white mt-[30px] lg:mt-[180px] overflow-hidden border-[4px] border-[#425164] h-fit z-10 p-[24px] lg:p-[32px] rounded-[18px] flex flex-wrap lg:flex-nowrap items-center">
-  <div>
-    <p className="text-center text-[28px] lg:text-[40px] text-[#425164]">
-      <span className="font-bold stroke-[5px] stroke-current">
-        Senior Product Designer
-      </span>{' '}
-      putting the “fun” back in functional design
-    </p>
-    <p className="max-w-[501px] text-[#425164]">
-      My ability to create functional design is honed through years of
-      experience, a deep understanding of user needs, and a passion for
-      innovation. I excel in translating complex concepts into intuitive and
-      user-friendly interfaces that prioritize usability and accessibility.
-      <br />
-      <br /> My process begins with thorough research and analysis, allowing me
-      to identify pain points and opportunities for improvement. Leveraging
-      this insight, I collaborate closely with cross-functional teams to
-      conceptualize and iterate on designs that not only meet user requirements
-      but also align with business goals and technical constraints.
-    </p>
-  </div>
+            <div>
+            <p className="text-center text-[28px] lg:text-[40px] text-[#425164]">
+              <span className="font-bold stroke-[5px] stroke-current">
+              Senior Product Designer
+              </span>{' '}
+              putting the “fun” back in functional design
+            </p>
+            <p className="max-w-[501px] text-[#425164]">
+            My ability to create functional design is honed through years of
+            experience, a deep understanding of user needs, and a passion for
+            innovation. I excel in translating complex concepts into intuitive and
+            user-friendly interfaces that prioritize usability and accessibility.
+            <br />
+            <br /> My process begins with thorough research and analysis, allowing me
+            to identify pain points and opportunities for improvement. Leveraging
+            this insight, I collaborate closely with cross-functional teams to
+            conceptualize and iterate on designs that not only meet user requirements
+            but also align with business goals and technical constraints.
+            </p>
+            </div>
   <img src={ChrisPicture} alt="" className="pt-[149px] w-fit h-fit" />
 </div>
             <div className="flex pt-[60px] items-center space-x-[30px]">
