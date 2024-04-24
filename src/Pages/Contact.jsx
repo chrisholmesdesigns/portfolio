@@ -43,9 +43,9 @@ function Contact() {
                 text="TELL ME MORE..."
                 placeHolder="Tell me more..."
                 rounded="25px"
-                width={'75vw'}
-                height={'200px'}
-                style={{ wordWrap: 'break-word' }}
+                width={'100%'}
+                height={'250px'}
+                style={{ whiteSpace: 'normal', wordWrap: 'break-word' }}
                 ></Button>
           </div>
           </div>
