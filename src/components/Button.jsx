@@ -29,6 +29,7 @@ function Button({
       <div
         style={{
           height: height,
+          width: width,
           backgroundColor: mainBgCol,
           padding: padding,
           borderRadius: rounded,
