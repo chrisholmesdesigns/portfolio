@@ -38,13 +38,13 @@ function Contact() {
             </div>
             <div className="relative w-full h-full  flex-1">
               <Button
-                editable={true}
+                Editable={true}
                 onChange={(e) => setMore(e)}
                 text="TELL ME MORE..."
                 placeholder="Tell me more..."
                 rounded="25px"
                 width={'100%'}
-                height={'500px'}
+                height={'200px'}
                 style={{ wordWrap: 'normal' }}
                 ></Button>
           </div>
