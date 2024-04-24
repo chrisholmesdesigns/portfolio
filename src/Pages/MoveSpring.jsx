@@ -38,7 +38,7 @@ function MoveSpring() {
           <div className="">
             <p className="text-[32px] font-[700]">Role</p>
             <ul className="lg:list-disc lg:space-y-0 space-y-[5px] text-[24px] font-medium lg:pl-[40px]">
-              <li>Lead design team provide mentorship to junior designers.</li>
+              <li>Lead design team and provide mentorship to junior designers.</li>
               <li>
                 Create 12+ new features across platforms and maintain existing
                 ones.
