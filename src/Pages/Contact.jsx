@@ -45,7 +45,6 @@ function Contact() {
                 rounded="25px"
                 width={'100%'}
                 height={'100%'}
-                style={{ whiteSpace: 'normal', wordWrap: 'break-word' }}
                 ></Button>
           </div>
           </div>
