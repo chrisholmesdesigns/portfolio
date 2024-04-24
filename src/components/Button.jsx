@@ -37,9 +37,9 @@ function Button({
         {Editable ? (
           <input
             placeholder={placeHolder}
-            style={{ color: textCol }} // Set the placeholder text color here
+            style={{ color: textCol, width: '100%', whiteSpace: 'normal', wordWrap: 'break-word'}}
             onChange={(e) => onChange(e.target.value)}
-            className={`lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
+            className={`lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-center text-[#425164] font-[800] uppercase`}
             type="text"
           />
         ) : (
