@@ -52,7 +52,6 @@ function About() {
               {arrowDown}
             </div>
           </div>
-          <img src={ChrisPicture} alt="" className="pt-[149px] w-fit h-fit" />
         </div>
       </div>
       <div className="bg-[#F79256] lg:text-start text-center space-y-[89px] py-[100px] padding min-h-[400px] border-t-[4px] border-t-[#425164]">
