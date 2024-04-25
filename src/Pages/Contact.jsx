@@ -48,7 +48,7 @@ function Contact() {
                 ></Button>
           </div>
           </div>
-          <form onSubmit={(e) => handleSubmit(e)} className="w-full">
+          <form onSubmit={(e) => handleSubmit(e)} className="w-full pt-[24px]">
             <Button
               Editable={false}
               type="submit"
