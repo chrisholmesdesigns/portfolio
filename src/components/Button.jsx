@@ -42,7 +42,7 @@ function Button({
               color: textCol,
               resize: 'none',
             }}
-           className={'flex items-center justify-center h-[100%] lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-[#425164] w-full font-[800] uppercase'}
+           className={'flex h-[100%] lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-[#425164] w-full font-[800] uppercase'}
             onChange={(e) => onChange(e.target.value)}
           />
         ) : (
