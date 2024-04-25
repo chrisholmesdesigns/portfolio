@@ -42,12 +42,9 @@ function Button({
               width: '100%',
               height: '100%',
               resize: 'none',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
             }}
             onChange={(e) => onChange(e.target.value)}
-            className={`lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
+            className={`lg:text-[${textSize}px]  flex items-center justify-center p-[10px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
           />
         ) : (
           <p
