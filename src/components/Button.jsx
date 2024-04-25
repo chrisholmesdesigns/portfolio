@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 function Button({
   Subbmitable = true,
   Editable,
+  TextArea,
   onChange,
   placeHolder = 'PlaceHolder',
   width,
@@ -41,7 +42,15 @@ function Button({
            className={`lg:text-[${textSize}px] text-[${textSm}px] pt-4 pb-4 flex items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
             onChange={(e) => onChange(e.target.value)}
           />
-        ) : (
+        ) : 
+         TextArea ? (
+        <textarea
+            placeholder={placeHolder}
+           className={`lg:text-[${textSize}px] text-[${textSm}px] pt-4 pb-4 flex items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
+            onChange={(e) => onChange(e.target.value)}
+          />
+          )
+          : (
           <p
             style={{ color: textCol, justifyContent: 'center'}}
             className={`lg:text-[${textSize}px] text-[${textSm}px] pt-4 pb-4 text-[#425164] font-[800] uppercase`}
