@@ -36,7 +36,7 @@ function Contact() {
                 width={'100%'}
               ></Button>
             </div>
-            <div className="relative w-auto h-full">
+            <div className="relative w-full h-full">
               <Button
                 TextArea={true}
                 onChange={(e) => setMore(e)}
@@ -49,7 +49,7 @@ function Contact() {
                 ></Button>
             </div>
           </div>
-          <form onSubmit={(e) => handleSubmit(e)} className="w-full pt-[24px]">
+          <form onSubmit={(e) => handleSubmit(e)} className="w-auto pt-[24px]">
             <Button
               Editable={false}
               type="submit"
