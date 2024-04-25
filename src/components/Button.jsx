@@ -39,7 +39,7 @@ function Button({
         {Editable ? (
           <textarea
             placeholder={placeHolder}
-            style={{ color: textCol, margin: '10px', width: '100%', height: '100%', resize: 'none' }}
+            style={{ color: textCol, padding: '10px', width: '100%', height: '100%', resize: 'none' }}
             onChange={(e) => onChange(e.target.value)}
             className={`lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-center text-[#425164] font-[800] uppercase`}
           />
