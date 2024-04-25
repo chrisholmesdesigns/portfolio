@@ -37,12 +37,12 @@ function Button({
         {Editable ? (
          <textarea
             placeholder={placeHolder}
-           className={`lg:text-[${textSize}px] text-[${textSm}px] flex align-middle placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
+           className={`lg:text-[${textSize}px] text-[${textSm}px] flex justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
             onChange={(e) => onChange(e.target.value)}
           />
         ) : (
           <p
-            style={{ color: textCol, textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+            style={{ color: textCol, justifyContent: 'center', pt-[8px], pb-[8px]}}
             className={`lg:text-[${textSize}px] text-[${textSm}px] text-[#425164] font-[800] uppercase`}
           >
             {text}
