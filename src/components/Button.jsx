@@ -60,8 +60,8 @@ function Button({
       </div>
       <div
         style={{ backgroundColor: bgColor, borderRadius: rounded }}
-        className="absolute top-[10px] rounded-full border-[4px] left-[10px] bg-[
- ></div>
+        className="absolute top-[10px] rounded-full border-[4px] left-[10px] bg-[#609AA6] w-full h-full border-[#425164]"
+      ></div>
     </button>
   )
 }
