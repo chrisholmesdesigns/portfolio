@@ -28,11 +28,12 @@ function Button({
       <div
         style={{
           height: height,
+          width: width,
           backgroundColor: mainBgCol,
           padding: padding,
           borderRadius: rounded,
         }}
-        className="relative flex items-center justify-center p-[10px] z-10 bg-white rounded-full border-[4px] border-[#425164]"
+        className="relative flex justify-center p-[10px] z-10 bg-white rounded-full border-[4px] border-[#425164]"
       >
         {Editable ? (
           <textarea
