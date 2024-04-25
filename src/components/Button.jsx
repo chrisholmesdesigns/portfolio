@@ -35,7 +35,7 @@ function Button({
         className="relative h-full z-10 bg-white rounded-full border-[4px] border-[#425164]"
       >
         {Editable ? (
-         <form
+         <input
             placeholder={placeHolder}
            className={`lg:text-[${textSize}px] text-[${textSm}px] flex justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
             onChange={(e) => onChange(e.target.value)}
@@ -43,7 +43,7 @@ function Button({
         ) : (
           <p
             style={{ color: textCol, justifyContent: 'center'}}
-            className={`lg:text-[${textSize}px] text-[${textSm}px] pt-8 pb-8 text-[#425164] font-[800] uppercase`}
+            className={`lg:text-[${textSize}px] text-[${textSm}px] pt-4 pb-4 text-[#425164] font-[800] uppercase`}
           >
             {text}
           </p>
