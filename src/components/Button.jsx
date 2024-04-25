@@ -36,15 +36,17 @@ function Button({
         className="relative flex justify-center p-[10px] z-10 bg-white rounded-full border-[4px] border-[#425164]"
       >
         {Editable ? (
-          <textarea
+        <div className={`lg:text-[${textSize}px] flex items-center justify-center h-full'}>
+         <textarea
             placeholder={placeHolder}
             style={{
               color: textCol,
               resize: 'none',
             }}
             onChange={(e) => onChange(e.target.value)}
-            className={`lg:text-[${textSize}px] flex items-center justify-center h-full text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-[#425164] w-full font-[800] uppercase`}
+            className={`lg:text-[${textSize}px] flex items-center justify-center text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-[#425164] w-full font-[800] uppercase`}
           />
+        </div>
         ) : (
           <p
             style={{ color: textCol, textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
