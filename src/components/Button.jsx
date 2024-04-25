@@ -32,13 +32,13 @@ function Button({
           backgroundColor: mainBgCol,
           borderRadius: rounded,
         }}
-        className="relative h-[100%] z-10 bg-white rounded-full border-[4px] border-[#425164]"
+        className="relative h-full z-10 bg-white rounded-full border-[4px] border-[#425164]"
       >
         {Editable ? (
          <textarea
             placeholder={placeHolder}
             style={{textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center'}}
-           className={'lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-[#425164] font-[800] uppercase'}
+           className={`lg:text-[${textSize}px] text-[${textSm}px] text-[#425164] font-[800] uppercase`}
             onChange={(e) => onChange(e.target.value)}
           />
         ) : (
