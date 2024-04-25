@@ -38,7 +38,7 @@ function Button({
          <textarea
             placeholder={placeHolder}
             style={{textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center'}}
-           className={'flex h-[100%] lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-[#425164] w-full font-[800] uppercase'}
+           className={'lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-[#425164] font-[800] uppercase'}
             onChange={(e) => onChange(e.target.value)}
           />
         ) : (
