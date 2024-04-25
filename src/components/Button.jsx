@@ -39,14 +39,14 @@ function Button({
          <input
            type="text"
             placeholder={placeHolder}
-           className={`lg:text-[${textSize}px] text-[${textSm}px] ml-2 mr-2 pt-4 pb-4 flex items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-auto font-[800] uppercase`}
+           className={`lg:text-[${textSize}px] text-[${textSm}px] pt-4 pb-4 flex items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-auto font-[800] uppercase`}
             onChange={(e) => onChange(e.target.value)}
           />
         ) : 
          TextArea ? (
         <textarea
             placeholder={placeHolder}
-           className={`lg:text-[${textSize}px] text-[${textSm}px] ml-2 mr-2  h-72 pt-4 pb-4 flex items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-40 font-[800] uppercase`}
+           className={`lg:text-[${textSize}px] text-[${textSm}px] ml-2 mr-2  h-72 pt-4 pb-4 flex items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-44 font-[800] uppercase`}
             onChange={(e) => onChange(e.target.value)}
           />
           )
