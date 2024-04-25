@@ -26,23 +26,29 @@ function Button({
       className="relative"
     >
    <div
+  style={{
+    height: '100%', // Ensure the container takes the full height of the parent button
+    width: width,
+    backgroundColor: mainBgCol,
+    padding: padding,
+    borderRadius: rounded,
+    display: 'flex', // Ensure the container is a flex container
+    alignItems: 'center', // Center items vertically within the container
+    justifyContent: 'center', // Center items horizontally within the container
+  }}
+  className="relative bg-white rounded-full border-[4px] border-[#425164]"
+>
+  <textarea
+    placeholder={placeHolder}
     style={{
-      height: '100%', // Ensure the container takes the full height of the parent button
-      width: width,
-      backgroundColor: mainBgCol,
-      padding: padding,
-      borderRadius: rounded,
+      color: textCol,
+      resize: 'none',
+      width: '100%', // Ensure the textarea takes the full width of its container
+      height: '100%', // Ensure the textarea takes the full height of its container
+      textAlign: 'center', // Center the text within the textarea
+      paddingTop: '0', // Reset padding to ensure proper alignment
+      paddingBottom: '0', // Reset padding to ensure proper alignment
     }}
-    className="relative flex items-center justify-center bg-white rounded-full border-[4px] border-[#425164]"
-    >
-    <textarea
-      placeholder={placeHolder}
-      style={{
-        color: textCol,
-        resize: 'none',
-        width: '100%', // Ensure the textarea takes the full width of its container
-        height: '100%', // Ensure the textarea takes the full height of its container
-      }}
     onChange={(e) => onChange(e.target.value)}
   />
 </div>
