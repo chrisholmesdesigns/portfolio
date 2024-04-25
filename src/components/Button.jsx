@@ -44,7 +44,7 @@ function Button({
               resize: 'none',
             }}
             onChange={(e) => onChange(e.target.value)}
-            className={`lg:text-[${textSize}px]  flex items-center justify-center p-[10px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
+            className={`lg:text-[${textSize}px] flex items-center justify-center m-[12px] p-[10px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
           />
         ) : (
           <p
