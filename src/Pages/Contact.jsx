@@ -51,6 +51,7 @@ function Contact() {
           <form onSubmit={(e) => handleSubmit(e)} className="w-full">
             <Button
               Editable={false}
+              type="submit"
               width={'100%'}
               bgColor="#425164"
               text="SUBMIT"
