@@ -26,27 +26,29 @@ function Button({
       className="relative"
     >
       <div
-        style={{
-          height: height,
-          backgroundColor: mainBgCol,
-          padding: padding,
-          borderRadius: rounded,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center', // Center align horizontally
-        }}
-        className="relative bg-white rounded-full border-[4px] border-[#425164]"
+        className="relative"
+        style={{ width: '100%', height: '100%' }}
       >
+        <div
+          style={{
+            backgroundColor: mainBgCol,
+            borderRadius: rounded,
+            transition: 'background-color 0.3s',
+          }}
+          className="absolute inset-0 flex items-center justify-center rounded-full border-[4px] border-[#425164]"
+        >
+          {/* Content goes here */}
+        </div>
         {Editable ? (
           <textarea
             placeholder={placeHolder}
-            style={{ color: textCol, width: '100%', height: '100%', resize: 'none', margin: '10px' }} // Add margin here
+            style={{ color: textCol, width: '100%', height: '100%', resize: 'none', margin: '10px', zIndex: 1 }} // Ensure textarea is above background
             onChange={(e) => onChange(e.target.value)}
             className={`lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-center text-[#425164] font-[800] uppercase`}
           />
         ) : (
           <p
-            style={{ color: textCol, margin: '10px' }} // Add margin here
+            style={{ color: textCol, margin: '10px', zIndex: 1 }} // Ensure text is above background
             className={`lg:text-[${textSize}px] text-[${textSm}px] text-[#425164] font-[800] uppercase`}
           >
             {text}
