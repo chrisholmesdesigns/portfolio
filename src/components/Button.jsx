@@ -39,7 +39,7 @@ function Button({
          <input
            type="text"
             placeholder={placeHolder}
-           className={`lg:text-[${textSize}px] text-[${textSm}px] ml-4 mr-4 pt-4 pb-4 flex items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-auto font-[800] uppercase`}
+           className={`lg:text-[${textSize}px] text-[${textSm}px] ml-2 mr-2 pt-4 pb-4 flex items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-auto font-[800] uppercase`}
             onChange={(e) => onChange(e.target.value)}
           />
         ) : 
@@ -53,7 +53,7 @@ function Button({
           : (
           <p
             style={{ color: textCol, justifyContent: 'center'}}
-            className={`lg:text-[${textSize}px] text-[${textSm}px] pt-4 pb-4 text-[#425164] font-[800] uppercase`}
+            className={`lg:text-[${textSize}px] text-[${textSm}px] ml-2 mr-2 pt-4 pb-4 w-auto text-[#425164] font-[800] uppercase`}
           >
             {text}
           </p>
