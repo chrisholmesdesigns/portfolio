@@ -36,6 +36,7 @@ function Button({
       >
         {Editable ? (
          <input
+           type="text"
             placeholder={placeHolder}
            className={`lg:text-[${textSize}px] text-[${textSm}px] flex justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
             onChange={(e) => onChange(e.target.value)}
