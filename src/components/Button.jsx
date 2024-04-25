@@ -25,27 +25,27 @@ function Button({
       style={{ width: width, height: height }}
       className="relative"
     >
-      <div
-        style={{
-          height: height,
-          width: width,
-          backgroundColor: mainBgCol,
-          padding: padding,
-          borderRadius: rounded,
-        }}
-        className="relative flex justify-center p-[10px] z-10 bg-white rounded-full border-[4px] border-[#425164]"
-      >
-        {Editable ? (
-        <div className={'flex items-center justify-center h-full lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-[#425164] w-full font-[800] uppercase'}>
-         <textarea
-            placeholder={placeHolder}
-            style={{
-              color: textCol,
-              resize: 'none',
-            }}
-            onChange={(e) => onChange(e.target.value)}
-          />
-        </div>
+   <div
+    style={{
+      height: '100%', // Ensure the container takes the full height of the parent button
+      width: width,
+      backgroundColor: mainBgCol,
+      padding: padding,
+      borderRadius: rounded,
+    }}
+    className="relative flex items-center justify-center bg-white rounded-full border-[4px] border-[#425164]"
+    >
+    <textarea
+      placeholder={placeHolder}
+      style={{
+        color: textCol,
+        resize: 'none',
+        width: '100%', // Ensure the textarea takes the full width of its container
+        height: '100%', // Ensure the textarea takes the full height of its container
+      }}
+    onChange={(e) => onChange(e.target.value)}
+  />
+</div>
         ) : (
           <p
             style={{ color: textCol, textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
