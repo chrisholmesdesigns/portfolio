@@ -49,7 +49,7 @@ function Button({
       paddingTop: '0', // Reset padding to ensure proper alignment
       paddingBottom: '0', // Reset padding to ensure proper alignment
     }}
-    onChange={(e) => onChange(e.target.value)}
+    className={'flex items-center justify-center h-full lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-[#425164] w-full font-[800] uppercase'}
   />
 </div>
         ) : (
