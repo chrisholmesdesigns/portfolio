@@ -40,8 +40,6 @@ function Button({
             placeholder={placeHolder}
             style={{
               color: textCol,
-              width: '100%',
-              height: '100%',
               resize: 'none',
             }}
             onChange={(e) => onChange(e.target.value)}
