@@ -32,7 +32,7 @@ function Button({
           backgroundColor: mainBgCol,
           borderRadius: rounded,
         }}
-        className="relative z-10 bg-white rounded-full border-[4px] border-[#425164]"
+        className="relative h-[50px] z-10 bg-white rounded-full border-[4px] border-[#425164]"
       >
         {Editable ? (
          <textarea
