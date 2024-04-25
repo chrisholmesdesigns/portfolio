@@ -20,13 +20,13 @@ function Button({
   const navigate = useNavigate()
 
   return (
-    <button
+<button
       onClick={() => link && navigate(link)}
       style={{ width: width, height: height }}
       className="relative"
     >
-   <div
-  style={{
+  <div
+    style={{
     height: '100%', // Ensure the container takes the full height of the parent button
     width: width,
     backgroundColor: mainBgCol,
@@ -35,9 +35,9 @@ function Button({
     display: 'flex', // Ensure the container is a flex container
     alignItems: 'center', // Center items vertically within the container
     justifyContent: 'center', // Center items horizontally within the container
-  }}
-  className="relative bg-white rounded-full border-[4px] border-[#425164]"
->
+    }}
+    className="relative bg-white rounded-full border-[4px] border-[#425164]"
+  >
   <textarea
     placeholder={placeHolder}
     style={{
@@ -51,7 +51,7 @@ function Button({
     }}
     className={'flex items-center justify-center h-full lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-[#425164] w-full font-[800] uppercase'}
   />
-</div>
+  </div>
         ) : (
           <p
             style={{ color: textCol, textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
@@ -60,11 +60,10 @@ function Button({
             {text}
           </p>
         )}
-      </div>
-      <div
+  <div
         style={{ backgroundColor: bgColor, borderRadius: rounded }}
         className="absolute top-[10px] rounded-full border-[4px] left-[10px] bg-[#609AA6] w-full h-full border-[#425164]"
-      ></div>
+  ></div>
     </button>
   )
 }
