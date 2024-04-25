@@ -38,7 +38,7 @@ function Contact() {
             </div>
             <div className="relative w-full h-full">
               <Button
-                Editable={true}
+                TextArea={true}
                 onChange={(e) => setMore(e)}
                 text="TELL ME MORE..."
                 placeHolder="Tell me more..."
