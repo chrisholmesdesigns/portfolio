@@ -20,38 +20,32 @@ function Button({
   const navigate = useNavigate()
 
   return (
-<button
+    <button
       onClick={() => link && navigate(link)}
       style={{ width: width, height: height }}
       className="relative"
     >
-  <div
-    style={{
-    height: '100%', // Ensure the container takes the full height of the parent button
-    width: width,
-    backgroundColor: mainBgCol,
-    padding: padding,
-    borderRadius: rounded,
-    display: 'flex', // Ensure the container is a flex container
-    alignItems: 'center', // Center items vertically within the container
-    justifyContent: 'center', // Center items horizontally within the container
-    }}
-    className="relative bg-white rounded-full border-[4px] border-[#425164]"
-  >
-  <textarea
-    placeholder={placeHolder}
-    style={{
-      color: textCol,
-      resize: 'none',
-      width: '100%', // Ensure the textarea takes the full width of its container
-      height: '100%', // Ensure the textarea takes the full height of its container
-      textAlign: 'center', // Center the text within the textarea
-      paddingTop: '0', // Reset padding to ensure proper alignment
-      paddingBottom: '0', // Reset padding to ensure proper alignment
-    }}
-    className={'flex items-center justify-center h-full lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-[#425164] w-full font-[800] uppercase'}
-  />
-  </div>
+      <div
+        style={{
+          height: height,
+          width: width,
+          backgroundColor: mainBgCol,
+          padding: padding,
+          borderRadius: rounded,
+        }}
+        className="relative flex justify-center p-[10px] z-10 bg-white rounded-full border-[4px] border-[#425164]"
+      >
+        {Editable ? (
+        <div className={'flex items-center justify-center h-full lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-[#425164] w-full font-[800] uppercase'}>
+         <textarea
+            placeholder={placeHolder}
+            style={{
+              color: textCol,
+              resize: 'none',
+            }}
+            onChange={(e) => onChange(e.target.value)}
+          />
+        </div>
         ) : (
           <p
             style={{ color: textCol, textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
@@ -60,10 +54,11 @@ function Button({
             {text}
           </p>
         )}
-  <div
+      </div>
+      <div
         style={{ backgroundColor: bgColor, borderRadius: rounded }}
         className="absolute top-[10px] rounded-full border-[4px] left-[10px] bg-[#609AA6] w-full h-full border-[#425164]"
-  ></div>
+      ></div>
     </button>
   )
 }
