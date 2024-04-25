@@ -41,13 +41,17 @@ function Button({
               color: textCol,
               width: '100%',
               height: '100%',
-              resize: 'none' }}
+              resize: 'none',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
             onChange={(e) => onChange(e.target.value)}
-            className={`lg:text-[${textSize}px] text-[${textSm}px] items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
+            className={`lg:text-[${textSize}px] text-[${textSm}px] placeholder-current bg-transparent focus:outline-none text-center text-[#425164] w-full font-[800] uppercase`}
           />
         ) : (
           <p
-            style={{ color: textCol }}
+            style={{ color: textCol, textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
             className={`lg:text-[${textSize}px] text-[${textSm}px] text-[#425164] font-[800] uppercase`}
           >
             {text}
@@ -56,10 +60,4 @@ function Button({
       </div>
       <div
         style={{ backgroundColor: bgColor, borderRadius: rounded }}
-        className="absolute top-[10px] rounded-full border-[4px] left-[10px] bg-[#609AA6] w-full h-full border-[#425164]"
-      ></div>
-    </button>
-  )
-}
-
-export default Button
+        className="absolute top-[10px] rounded-full border-[4px] left-[10px] bg-[
