@@ -61,3 +61,9 @@ function Button({
       <div
         style={{ backgroundColor: bgColor, borderRadius: rounded }}
         className="absolute top-[10px] rounded-full border-[4px] left-[10px] bg-[
+ ></div>
+    </button>
+  )
+}
+
+export default Button
