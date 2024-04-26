@@ -19,6 +19,7 @@ function Contact() {
     } else {
         // Handle error if the mail client did not open
         console.error('Failed to open mail client');
+      console.log('The submit does not exist!')
         // You might want to display an error message to the user here
     }
   }
