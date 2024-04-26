@@ -158,12 +158,12 @@ function Catepillar() {
         <div className="w-fit space-y-[24px] mx-auto text-center">
           <Button
             link={'/EDS'}
-            height={'50px'}
             text="Let’s see the next project"
             bgColor="#F79256"
             width={'fit-content'}
             textSize={'24px'}
-            padding={'0 8px'}
+            padding={'0'}
+            textSize={' text-[16px] lg:text-[24px] '}
           ></Button>
           <div>
             <Link
