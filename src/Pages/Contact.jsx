@@ -9,12 +9,10 @@ function Contact() {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:chrisholmesdesigns@gmail.com?subject=User Information&body=First%20Name:%20${encodeURIComponent(FirstName)}%0D%0ALast%20Name:%20${encodeURIComponent(LastName)}%0D%0AStar%20Sign:%20${encodeURIComponent(StarSign)}%0D%0ATell%20Me%20More:%20${encodeURIComponent(More)}`;
-    
-    // Open the mail client with the mailto link
+    const mailtoLink = `mailto:chrisholmesdesigns@gmail.com?subject=User Information&body=First Name: ${FirstName}%0D%0ALast Name: ${LastName}%0D%0AStar Sign: ${StarSign}%0D%0ATell Me More: ${More}`;
     window.location.href = mailtoLink;
-    
-    // Check if the mail client opened successfully
+    // Assuming the mailtoLink always redirects to the email client,
+    // you can consider the submission successful immediately
     if (success) {
         // If the mail client opened, consider the submission successful
         setIsSubmitted(true);
@@ -23,7 +21,7 @@ function Contact() {
         console.error('Failed to open mail client');
         // You might want to display an error message to the user here
     }
-}
+  }
 
   return (
     <div>
