@@ -5,6 +5,7 @@ function Contact() {
   const [LastName, setLastName] = useState('')
   const [StarSign, setStarSign] = useState('')
   const [More, setMore] = useState('')
+  const [isSubmitted, setIsSubmitted] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault()
     const mailtoLink = `mailto:chrisholmesdesigns@gmail.com?subject=User Information&body=First Name: ${FirstName}%0D%0ALast Name: ${LastName}%0D%0AStar Sign: ${StarSign}%0D%0ATell Me More: ${More}`
@@ -60,6 +61,7 @@ function Contact() {
               textCol="white"
             ></Button>
           </form>
+           {isSubmitted && <p className="text-green-500">Form submitted successfully!</p>}
         </div>
       </div>
     </div>
