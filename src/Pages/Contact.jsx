@@ -14,7 +14,7 @@ function Contact() {
     <div>
       <div className="min-h-[500px] pt-[200px] pb-[350px] relative w-full bg-[#F7D456] ">
         <div className="h-[140px] lg:block hidden border-t-[4px]  absolute -bottom-[4px] bg-[#A3AAB3] border-[#425164] w-1/2 right-0 border-l-[4px] border-[]"></div>
-        <div className=" lg:w-[800px] padding  space-y-[30px] lg:space-y-[50px] h-fit lg:h-[313px] mx-auto  ">
+        <div className="padding  space-y-[30px] lg:space-y-[50px] h-fit lg:h-[313px] mx-auto  ">
           <div className="flex lg:flex-row space-y-[30px] flex-col h-full lg:space-x-[53px]">
             <div className="flex m-[16px] justify-between lg:space-y-0 flex-col">
               <Button
