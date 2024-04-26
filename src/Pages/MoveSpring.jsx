@@ -10,12 +10,11 @@ function MoveSpring() {
       <section className="space-y-[50px] lg:space-y-[70px]">
         <div className="padding">
           <Button
-            link={'/'}
+            llink={'/'}
             text="Take me Back to home base"
             width={'fit-content'}
-            padding={'0 15px'}
+            padding={'0'}
             textSize={' text-[16px] lg:text-[24px] '}
-            height={'56px'}
           ></Button>
         </div>
         <div className="space-y-[20px] lg:space-y-[86px] padding relative">
@@ -162,12 +161,11 @@ function MoveSpring() {
         <div className="w-fit space-y-[24px] mx-auto text-center">
           <Button
             link={'/Experian'}
-            height={'50px'}
             text="Let’s see the next project"
             bgColor="#F79256"
             width={'fit-content'}
             textSize={'24px'}
-            padding={'0 15px'}
+            padding={'0'}
           ></Button>
           <div>
             <Link
