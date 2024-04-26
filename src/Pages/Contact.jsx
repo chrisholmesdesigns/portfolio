@@ -13,15 +13,8 @@ function Contact() {
     window.location.href = mailtoLink;
     // Assuming the mailtoLink always redirects to the email client,
     // you can consider the submission successful immediately
-    if (success) {
-        // If the mail client opened, consider the submission successful
-        setIsSubmitted(true);
-    } else {
-        // Handle error if the mail client did not open
-        console.error('Failed to open mail client');
-      console.log('The submit does not exist!')
-        // You might want to display an error message to the user here
-    }
+    setIsSubmitted(true);
+    console.log('You've submitted')
   }
 
   return (
