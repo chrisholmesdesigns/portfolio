@@ -9,7 +9,7 @@ function Contact() {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:chrisholmesdesigns@gmail.com?subject=User Information&body=First Name: ${FirstName}%0D%0ALast Name: ${LastName}%0D%0AStar Sign: ${StarSign}%0D%0ATell Me More: ${More}`;
+    const mailtoLink = `mailto:chrisholmes1226@gmail.com?subject=User Information&body=First Name: ${FirstName}%0D%0ALast Name: ${LastName}%0D%0AStar Sign: ${StarSign}%0D%0ATell Me More: ${More}`;
     window.location.href = mailtoLink;
     // Assuming the mailtoLink always redirects to the email client,
     // you can consider the submission successful immediately
@@ -67,7 +67,7 @@ function Contact() {
               textCol="white"
             ></Button>
           </form>
-          {isSubmitted && <p className="lg:text-[48px] text-[${textSm}px] absolute inset-12 items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#228B22] w-auto font-[800] uppercase`">Form submitted successfully!</p>}
+          {isSubmitted && <p className="lg:text-[48px] text-[${textSm}px] absolute inset-16 items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#228B22] w-auto font-[800] uppercase`">Form submitted successfully!</p>}
         </div>
       </div>
     </div>
