@@ -53,7 +53,7 @@ function Button({
           : (
           <p
             style={{ color: textCol, justifyContent: 'center'}}
-            className={`lg:text-[${textSize}px] text-[${textSm}px] ml-2 mr-2 pt-4 pb-4 w-auto text-[#425164] font-[800] uppercase`}
+            className={`lg:text-[${textSize}px] text-[${textSm}px] justify-center 4 w-auto text-[#425164] font-[800] uppercase`}
           >
             {text}
           </p>
