@@ -65,7 +65,7 @@ function Contact() {
               textCol="white"
             ></Button>
           </form>
-          {isSubmitted && <p className="lg:text-[48px] text-[${textSm}px] absolute inset-10 items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#228B22] w-auto font-[800] uppercase`">Form submitted successfully!</p>}
+          {isSubmitted && <p className="lg:text-[48px] text-[${textSm}px] absolute inset-1/3 items-center justify-center placeholder-current bg-transparent focus:outline-none text-center text-[#228B22] w-auto font-[800] uppercase`">Form submitted successfully!</p>}
         </div>
       </div>
     </div>
