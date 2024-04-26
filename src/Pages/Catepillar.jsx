@@ -14,7 +14,7 @@ function Catepillar() {
           <Button
             link={'/'}
             text="Take me Back to home base"
-            width={'56px'}
+            width={'20%'}
             padding={'0'}
             textSize={' text-[16px] lg:text-[24px] '}
           ></Button>
