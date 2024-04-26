@@ -14,7 +14,7 @@ function Contact() {
     // Assuming the mailtoLink always redirects to the email client,
     // you can consider the submission successful immediately
     setIsSubmitted(true);
-    console.log('You've submitted')
+    console.log('You\'ve submitted');
   }
 
   return (
