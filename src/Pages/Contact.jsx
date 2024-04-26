@@ -19,19 +19,19 @@ function Contact() {
             <div className="flex m-[16px] justify-between lg:space-y-0 flex-col">
               <Button
                 placeHolder="First Name"
-                onChange={(e) => setFirstName(e)}
+                onChange={(e) => setFirstName(e.target.value)}
                 Editable={true}
                 width={'100%'}
               ></Button>
               <Button
                 placeHolder="Last Name"
-                onChange={(e) => setLastName(e)}
+                onChange={(e) => setLastName(e.target.value)}
                 Editable={true}
                 width={'100%'}
               ></Button>{' '}
               <Button
                 placeHolder="star sign"
-                onChange={(e) => setStarSign(e)}
+                onChange={(e) => setStarSign(e.target.value)}
                 Editable={true}
                 width={'100%'}
               ></Button>
@@ -39,7 +39,7 @@ function Contact() {
             <div className="relative w-full h-full">
               <Button
                 TextArea={true}
-                onChange={(e) => setMore(e)}
+                onChange={(e) => setMore(e.target.value)}
                 text="TELL ME MORE..."
                 placeHolder="Tell me more..."
                 rounded="25px"
