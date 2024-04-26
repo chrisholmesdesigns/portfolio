@@ -9,7 +9,7 @@ function Contact() {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = 'mailto:chrisholmesdesigns@gmail.com?subject=User Information&body=First Name: ${FirstName}%0D%0ALast Name: ${LastName}%0D%0AStar Sign: ${StarSign}%0D%0ATell Me More: ${More}';
+    const mailtoLink = `mailto:chrisholmesdesigns@gmail.com?subject=User Information&body=First Name: ${FirstName}%0D%0ALast Name: ${LastName}%0D%0AStar Sign: ${StarSign}%0D%0ATell Me More: ${More}`;
     window.location.href = mailtoLink;
     // Assuming the mailtoLink always redirects to the email client,
     // you can consider the submission successful immediately
