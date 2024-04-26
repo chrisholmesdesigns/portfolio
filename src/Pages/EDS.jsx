@@ -16,9 +16,8 @@ function EDS() {
             link={'/'}
             text="Take me Back to home base"
             width={'fit-content'}
-            padding={'0 15px'}
+            padding={'0'}
             textSize={' text-[16px] lg:text-[24px] '}
-            height={'56px'}
           ></Button>
         </div>
         <div className="space-y-[20px] lg:space-y-[86px] padding relative">
@@ -159,12 +158,11 @@ function EDS() {
         <div className="w-fit space-y-[24px] mx-auto text-center">
           <Button
             link={'/movespring'}
-            height={'50px'}
             text="Let’s see the next project"
             bgColor="#F79256"
             width={'fit-content'}
             textSize={'24px'}
-            padding={'0 15px'}
+            padding={'0'}
           ></Button>
           <div>
             <Link
