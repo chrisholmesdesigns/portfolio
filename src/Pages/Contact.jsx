@@ -12,7 +12,7 @@ function Contact() {
     const mailtoLink = `mailto:chrisholmesdesigns@gmail.com?subject=User Information&body=First%20Name:%20${encodeURIComponent(FirstName)}%0D%0ALast%20Name:%20${encodeURIComponent(LastName)}%0D%0AStar%20Sign:%20${encodeURIComponent(StarSign)}%0D%0ATell%20Me%20More:%20${encodeURIComponent(More)}`;
     
     // Open the mail client with the mailto link
-    const success = window.open(mailtoLink);
+    window.location.href = mailtoLink;
     
     // Check if the mail client opened successfully
     if (success) {
