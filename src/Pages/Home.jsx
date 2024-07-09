@@ -30,7 +30,7 @@ function Home() {
             <p className="text-center lg:text-[40px] text-[#425164]">
               <span className="font-bold   stroke-[5px] stroke-current">
                 {' '}
-                Senior Product Designer
+                Lead Product Designer
               </span>{' '}
               putting the “fun” back in functional design
             </p>
