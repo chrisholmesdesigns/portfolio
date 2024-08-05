@@ -68,7 +68,7 @@ function MoveSpring() {
             <li>
               Created{' '}
               <span className="font-[700]">
-                Monthly Step Goal, On-Demand Content, Discounts, Rewards 
+                Monthly Step Goal, On-Demand Content, Discounts, Rewards {' '} 
               </span>
               and <span className="font-[700]">Wellbeing Calendar</span> from
               scratch to address client needs and expectations.
