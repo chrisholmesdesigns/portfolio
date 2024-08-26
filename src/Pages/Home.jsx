@@ -26,17 +26,7 @@ function Home() {
           </div>
         </div>
         <div className="padding  lg:-space-x-[50px] relative flex lg:flex-row flex-col justify-center ">
-          <div className="bg-white mt-[150px] lg:mt-[283px] overflow-hidden border-[4px] border-[#425164] h-fit z-10 p-[32px] w-full lg:w-[547px] rounded-[18px]">
-            <p className="text-center lg:text-[40px] text-[#425164]">
-              <span className="font-bold   stroke-[5px] stroke-current">
-                {' '}
-                Lead Product Designer
-              </span>{' '}
-              putting the “fun” back in functional design
-            </p>
-          </div>
-          <img src={ChrisPicture} alt="" className="pt-[50px] lg:pt-[149px]" />
-          {/* <img src={Work} alt="" className="w-[130px] opacity-0 pt-[40px] " /> */}
+          
         </div>
       </div>
       <div className="bg-[#F79256]  border-b-[4px] border-[#425164]  padding lg:pt-[100px]  relative h-fit">
