@@ -27,6 +27,10 @@ function Home() {
         </div>
         <div className="padding  lg:-space-x-[50px] relative flex lg:flex-row flex-col justify-center ">
           <div className="bg-white mt-[150px] lg:mt-[283px] overflow-hidden border-[4px] border-[#425164] h-fit z-10 p-[32px] w-full lg:w-[547px] rounded-[18px]">
+          <p className="text-center lg:text-[40px] text-[#425164]">
+                {' '}
+               Work
+            </p>
           </div>  
         </div>
       </div>
