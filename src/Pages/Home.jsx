@@ -26,7 +26,7 @@ function Home() {
           </div>
         </div>
         <div className="padding  lg:-space-x-[50px] relative flex lg:flex-row flex-col justify-center ">
-          <div className="bg-white mt-[150px] lg:mt-[283px] overflow-hidden border-[4px] border-[#425164] invisible h-fit z-10 p-[32px] w-full lg:w-[547px] rounded-[18px]">
+          <div className="bg-white mt-[150px] lg:mt-[283px] overflow-hidden border-[4px] border-[#425164] invisible h-fit z-10 p-[2px] w-full lg:w-[547px] rounded-[18px]">
           </div>  
         </div>
       </div>
