@@ -26,11 +26,11 @@ function Home() {
           </div>
         </div>
         <div className="padding  lg:-space-x-[50px] relative flex lg:flex-row flex-col justify-center ">
-          <div className="bg-white mt-[150px] lg:mt-[283px] overflow-hidden border-[4px] border-[#425164] visibility: hidden; h-fit z-10 p-[32px] w-full lg:w-[547px] rounded-[18px]">
+          <div className="bg-white mt-[150px] lg:mt-[283px] overflow-hidden border-[4px] border-[#425164] invisible h-fit z-10 p-[32px] w-full lg:w-[547px] rounded-[18px]">
           </div>  
         </div>
       </div>
-      <div className="bg-[#F79256]  border-b-[4px] border-[#425164]  padding lg:pt-[100px]  relative h-fit">
+      <div className="bg-[#F79256]  border-b-[4px] border-t-[4px] border-[#425164]  padding lg:pt-[100px]  relative h-fit">
         <div className=" bg-white border-b-0 lg:block hidden h-[150px]  border-[#425164] absolute border-r-0 -bottom-1 right-0 w-1/2 border-[4px]"></div>
         <div className="flex lg:space-y-0 space-y-[30px] py-[100px] lg:py-0 lg:flex-row flex-col relative justify-between w-full mx-auto max-w-[1100px]">
           <div className="space-y-[20px]">
