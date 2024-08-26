@@ -1,6 +1,6 @@
 import ChrisPicture from '../assets/Work/PersonalPicture.png'
 import Work from '../assets/Work/Work.png'
-import MoveSpring from '../assets/Work/MovesSpring.png'
+import MoveSpring from '../assets/Work/MoveSpring.png'
 import { cat, eyespring, MovieSpring } from '../assets/icons'
 import EyeSpring from '../assets/Work/EyeSpring.png'
 import MovesSpringText from '../assets/Work/MoveSpringText.png'
