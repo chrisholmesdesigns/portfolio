@@ -19,14 +19,14 @@ function Home() {
       <div className=" relative">
         <div className="absolute  inset-0 w-full ">
           <div className="bg-[#C9F2C7] border-b-[4px] border-[#425164] h-[593px] w-full  inset-0"></div>
-          <div className="w-full bg-[#F79256]">
+          <div className="w-full bg-[#FFFFFF]">
             <div className=" w-fit  lg:pt-[0] border  lg:w-full padding mx-auto  h-[400px]">
               {/* <img src={Work} alt="" className="w-[130px] pt-[40px] " /> */}
             </div>
           </div>
         </div>
         <div className="padding  lg:-space-x-[50px] relative flex lg:flex-row flex-col justify-center ">
-          <div className="bg-white mt-[24px] lg:mt-[64px] overflow-hidden border-[4px] border-[#425164] invisible h-fit z-10 p-[32px] w-full lg:w-[547px] rounded-[18px]">
+          <div className="bg-white mt-[48px] lg:mt-[64px] overflow-hidden border-[4px] border-[#425164] invisible h-fit z-10 p-[32px] w-full lg:w-[547px] rounded-[18px]">
           </div>  
         </div>
       </div>
