@@ -21,7 +21,7 @@ function Home() {
           <div className="bg-[#C9F2C7] border-b-[4px] border-[#425164] h-[593px] w-full  inset-0"></div>
           <div className="w-full bg-[#FFFFFF]">
             <div className=" w-fit  lg:pt-[0] border  lg:w-full padding mx-auto  h-[400px]">
-              {/* <img src={Work} alt="" className="w-[130px] pt-[40px] " /> */}
+               <img src={Work} alt="" className="w-[130px] pt-[40px] " /> 
             </div>
           </div>
         </div>
