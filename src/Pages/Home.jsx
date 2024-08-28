@@ -43,7 +43,7 @@ function Home() {
                   alt=""
                 />
               </div>
-              <p className="max-w-[489px] text-[38px] text-white font-medium">
+              <p className="max-w-[489px] text-[38px] text-[#425164] font-medium">
                 Get employees moving and help improve their wellbeing.
               </p>
             </div>
