@@ -30,7 +30,7 @@ function Home() {
           </div>  
         </div>
       </div>
-      <div className="bg-[#F79256]  border-b-[4px] border-t-[4px] border-[#425164]  padding lg:pt-[100px]  relative h-fit">
+      <div className="bg-[#FFFFFF]  border-b-[4px] border-t-[4px] border-[#425164]  padding lg:pt-[100px]  relative h-fit">
         <div className=" bg-white border-b-0 lg:block hidden h-[150px]  border-[#425164] absolute border-r-0 -bottom-1 right-0 w-1/2 border-[4px]"></div>
         <div className="flex lg:space-y-0 space-y-[30px] py-[100px] lg:py-0 lg:flex-row flex-col relative justify-between w-full mx-auto max-w-[1100px]">
           <div className="space-y-[20px]">
@@ -62,7 +62,7 @@ function Home() {
         </div>
       </div>
       <div className="relative  padding">
-        <div className="absolute -bottom-[4px]  right-0 w-1/2 lg:h-[200px] border-t-[4px] border-l-[4px] border-[#425164] bg-[#F7D456]"></div>
+        <div className="absolute -bottom-[4px]  right-0 w-1/2 lg:h-[200px] border-t-[4px] border-l-[4px] border-[#425164] bg-[#FFFFFF]"></div>
         <div className="flex space-y-[30px] lg:space-y-0 lg:flex-row flex-col py-[80px] lg:py-[130px] relative justify-between w-full mx-auto max-w-[1200px]">
           <div className="space-y-[20px]">
             <div className="space-y-[10px]">
@@ -93,8 +93,8 @@ function Home() {
         </div>
       </div>
       <div className="relative padding">
-        <div className="bg-[#F7D456] -z-10 h-full lg:h-[80%] border-t-[4px] border-b-[4px] border-[#425164] absolute inset-0 w-full"></div>
-        <div className="bg-[#F7D456] lg:block hidden border-b-[4px] -translate-y-[4px]  border-r-[4px] border-[#425164] h-[160px] top-[80%] absolute inset-0 w-1/2"></div>
+        <div className="bg-[#FFFFFF] -z-10 h-full lg:h-[80%] border-t-[4px] border-b-[4px] border-[#425164] absolute inset-0 w-full"></div>
+        <div className="bg-[#FFFFFF] lg:block hidden border-b-[4px] -translate-y-[4px]  border-r-[4px] border-[#425164] h-[160px] top-[80%] absolute inset-0 w-1/2"></div>
 
         <div className="flex lg:flex-row space-y-[30px] lg:space-y-0 flex-col lg:pb-0 py-[130px] lg:pt-[130px]  relative justify-between w-full mx-auto max-w-[1200px]">
           <div className="space-y-[20px] relative">
